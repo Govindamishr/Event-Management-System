@@ -104,7 +104,7 @@
 
   :point_down: **Summary**
 *****
-The project creates a user management system in Spring with five endpoints for adding, getting, updating, and deleting users. The User model has attributes for userId, username, dateOfBirth, email, phoneNumber, date, and time. The UserController class has methods that correspond to each endpoint, with appropriate implementation to interact with a database. The code also includes validation annotations for the User model attributes, such as @NotBlank, @NotNull, @Pattern, and @Email.
+In this project, we created a Spring Boot project for University Event Management using Spring Initializer and H2 as the database. We created two models - Student and Event - and provided validation on age, first name, and department. We also created controllers for adding, updating, deleting, and retrieving students and events. The project can be extended further by adding more functionality to it as per the requirements.
 *****
 
 ### **Show your Support** 
